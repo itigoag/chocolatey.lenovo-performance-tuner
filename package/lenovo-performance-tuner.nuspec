@@ -8,7 +8,7 @@
     <authors>Lenovo</authors>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-performance-tuner</packageSourceUrl>
     <projectUrl>https://pcsupport.lenovo.com/de/en/downloads/ds501902</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icons/lenovo-performance-tuner.jpg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icon/lenovo-performance-tuner.jpg</iconUrl>
     <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
     <tags>Lenovo Performance Tuner</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> 
