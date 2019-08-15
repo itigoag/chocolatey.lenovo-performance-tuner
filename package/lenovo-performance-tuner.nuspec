@@ -1,9 +1,19 @@
-# Chocolatey Package: lenovo-performance-tuner
-
-[![Build Status](https://img.shields.io/travis/itigoag/chocolatey.lenovo-performance-tuner?style=flat-square)](https://travis-ci.org/itigoag/chocolatey.lenovo-performance-tuner) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](licence) [![Chocolatey](https://img.shields.io/chocolatey/v/lenovo-performance-tuner?label=package%20version)](https://chocolatey.org/packages/lenovo-performance-tuner) [![Chocolatey](https://img.shields.io/chocolatey/dt/lenovo-performance-tuner?label=package%20downloads&style=flat-square)](https://chocolatey.org/packages/lenovo-performance-tuner)
-
-## Description
-
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>lenovo-performance-tuner</id>
+    <title>Lenovo Performance Tuner</title>
+    <version>0</version>
+    <owners>ITIGO AG, Simon Bärlocher</owners>
+    <authors>Lenovo</authors>
+    <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-performance-tuner</packageSourceUrl>
+    <projectUrl>https://pcsupport.lenovo.com/de/en/downloads/ds501902</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icon/lenovo-performance-tuner.jpg</iconUrl>
+    <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
+    <tags>Lenovo Performance Tuner</tags>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance> 
+    <summary>Lenovo Performance Tuner</summary>
+    <description><![CDATA[
 Lenovo Performance Tuner is a performance optimization tool for Lenovo ThinkPad™ and ThinkStation™
 P-series computers. LPT v2.0 builds upon our first release.
 
@@ -23,36 +33,9 @@ Microsoft Windows 7 (64-bit)
 Microsoft Windows 8 (64-bit)
 Microsoft Windows 8.1 (64-bit)
 Microsoft Windows 10 (64-bit)
-
-## Installation
-
-### choco
-
-installation without parameters.
-
-```ps1
- choco install lenovo-performance-tuner
-```
-
-### [ITIGO Packages](https://github.com/itigoag/ansible.packages)
-
-installation without parameters.
-
-```yml
-packages:
-  'lenovo-performance-tuner':
-    version: latest
-```
-
-## Author
-
-- [Simon Bärlocher](https://sbaerlocher.ch)
-- [ITIGO AG](https://www.itigo.ch)
-
-## License
-
-This project is under the MIT License. See the [LICENSE](licence) file for the full license text.
-
-## Copyright
-
-(c) 2019, ITIGO AG
+]]></description>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
+</package>
