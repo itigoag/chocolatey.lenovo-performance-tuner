@@ -3,12 +3,12 @@
   <metadata>
     <id>lenovo-performance-tuner</id>
     <title>Lenovo Performance Tuner</title>
-    <version>2.0.2.2</version>
+    <version>0</version>
     <owners>ITIGO AG, Simon Bärlocher</owners>
     <authors>Lenovo</authors>
     <packageSourceUrl>https://github.com/itigoag/chocolatey.lenovo-performance-tuner</packageSourceUrl>
     <projectUrl>https://pcsupport.lenovo.com/de/en/downloads/ds501902</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-system-update@master/icons/lenovo-performance-tuner.jpg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/itigoag/chocolatey.lenovo-performance-tuner@master/icon/lenovo-performance-tuner.jpg</iconUrl>
     <copyright>(C) Copyright Lenovo 2018. All rights reserved</copyright>
     <tags>Lenovo Performance Tuner</tags>
     <requireLicenseAcceptance>false</requireLicenseAcceptance> 
